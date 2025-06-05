@@ -1,52 +1,43 @@
-import React from 'react'
+import React from "react";
+
 
 function LoginPage() {
   return (
-       <div className="p-8">
-      <div className="w-2/4 border border-pri-1 rounded-3xl p-8 mx-auto space-y-4">
-        <h1 className="text-2xl text-fon-1">Login</h1>
+    <div className="min-h-screen bg-amber-300 flex items-center justify-center p-6">
+      <div className="bg-gray-900 rounded-lg shadow-lg w-full max-w-sm p-8 text-white">
+        <h2 className="text-3xl font-bold mb-6 text-center">Login</h2>
+        <form  className="space-y-6">
+          <div>
+            <label className="block mb-2 font-medium">
+              Email
+            </label>
+            <input
+              placeholder="you@email.com"
+              id="email"
+              type="email"
+              className="w-full p-3 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-amber-400"/>
+          </div>
 
-        <form onSubmit={handleSubmit} className="space-y-4 pl-2">
-          <InputForm
-            id="email"
-            placeholder="abc@mail.com"
-            handleChange={handleChange}
-            error={inputError.email}
-            value={input.email}
-            text="Email"
-            icon={Mail}
-          />
-
-          <InputForm
-            id="password"
-            placeholder="Enter you password"
-            handleChange={handleChange}
-            error={inputError.password}
-            value={input.password}
-            text="password"
-            icon={KeyRound}
-            type="password"
-          />
+          <div>
+            <label className="block mb-2 font-medium">
+              Password
+            </label>
+            <input
+              placeholder="••••••••"
+              id="password"
+              type="password"
+              className="w-full p-3 rounded bg-gray-800 text-white focus:outline-none focus:ring-2 focus:ring-amber-400"/>
+          </div>
 
           <button
-          disabled={isLoading}
-          className="bg-pri-1 mt-8 text-fon-2 w-full py-2 rounded-2xl hover:bg-hov-1 hover:shadow-xl cursor-pointer flex items-center justify-center gap-1 font-bold duration-300">
-            {isLoading ? (
-              <>
-                <Loader2 className="w-5 h-5 animate-spin" strokeWidth={2.5} />
-                <span>Loading ...</span>
-              </>
-            ) : (
-              <>
-                <LogInIcon className="w-5 h-5" strokeWidth={2.5} />
-                <span>Login</span>
-              </>
-            )}
+            type="submit"
+            className="w-full bg-amber-500 hover:bg-amber-600 text-gray-900 font-semibold py-3 rounded transition-colors duration-300">
+            Log In
           </button>
         </form>
       </div>
     </div>
-  )
+  );
 }
 
-export default LoginPage
+export default LoginPage;

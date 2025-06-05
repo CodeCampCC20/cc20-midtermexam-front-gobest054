@@ -9,7 +9,7 @@ function AppRouter() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage/>}>
-        <Route index element="Home"/> 
+        <Route index /> 
         <Route path='login' element={<LoginPage/>}/>
         <Route path='todo' element={<TodoPage/>}/>
         </Route>
