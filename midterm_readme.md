@@ -19,9 +19,9 @@ username: password{userId}
 
 - [x] Install packages to the project (5pts)
 
-- [] Setup Folder Structures (5pts)
+- [x] Setup Folder Structures (5pts)
 
-- [] Pick some CSS Framework (5pts)
+- [x] Pick some CSS Framework (5pts)
 
 ### Part-2 : Build UI with React Component (35pts)
 
@@ -33,13 +33,13 @@ username: password{userId}
 
 ### 2. Todo Page
 
-- [] Inputs (2pts)
+- [x] Inputs (2pts)
 
 - [] Button to Edit (2pts)
 
-- [] Button to Submit (2pts)
+- [x] Button to Submit (2pts)
 
-- [] Button to Delete (2pts)
+- [x] Button to Delete (2pts)
 
 - [] CheckBox (2pts)
 
@@ -51,21 +51,21 @@ username: password{userId}
 
 ### Part-3 : Feature and Logic (95pts)
 
-- [] Using React Router (10pts)
+- [x] Using React Router (10pts)
 
 - [] Login (Connects to API) (10pts)
 
-- [] Get my Todo (10pts)
+- [x] Get my Todo (10pts)
 
 - [] Auto Redirect when **Login Success** (10pts)
 
-- [] Create Todo (Connects to API) (10pts)
+- [x] Create Todo (Connects to API) (10pts)
 
-- [] Can submit form with **"Enter Key"** (10pts)
+- [x] Can submit form with **"Enter Key"** (10pts)
 
-- [] Update Todo (Connects to API) (10pts)
+- [x] Update Todo (Connects to API) (10pts)
 
-- [] Delete Todo (Connect to API) (10pts)
+- [x] Delete Todo (Connect to API) (10pts)
 
 - [] Input checkbox could change the data (Connect to API) (10pts)
 
