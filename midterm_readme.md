@@ -27,21 +27,21 @@ username: password{userId}
 
 ### 1. Login Page
 
-- [] Inputs (5pts)
+- [x] Inputs (5pts)
 
-- [] Button to Submit (5pts)
+- [x] Button to Submit (5pts)
 
 ### 2. Todo Page
 
 - [x] Inputs (2pts)
 
-- [] Button to Edit (2pts)
+- [x] Button to Edit (2pts)
 
 - [x] Button to Submit (2pts)
 
 - [x] Button to Delete (2pts)
 
-- [] CheckBox (2pts)
+- [x] CheckBox (2pts)
 
 ### 3.Naming and Structures
 
